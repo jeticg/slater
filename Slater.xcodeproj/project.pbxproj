@@ -19,15 +19,8 @@
 		E124F6F02A00F52B00E87126 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E124F6EF2A00F52A00E87126 /* beep.mp3 */; };
 		E124F6F12A00F52B00E87126 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E124F6EF2A00F52A00E87126 /* beep.mp3 */; };
 		E124F6F22A00F52B00E87126 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E124F6EF2A00F52A00E87126 /* beep.mp3 */; };
-		E124F6FC2A01067900E87126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E124F6F92A01067900E87126 /* Assets.xcassets */; };
-		E124F6FD2A01067900E87126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E124F6F92A01067900E87126 /* Assets.xcassets */; };
-		E124F6FE2A01067900E87126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E124F6F92A01067900E87126 /* Assets.xcassets */; };
-		E124F6FF2A01067900E87126 /* playstore.png in Resources */ = {isa = PBXBuildFile; fileRef = E124F6FA2A01067900E87126 /* playstore.png */; };
-		E124F7002A01067900E87126 /* playstore.png in Resources */ = {isa = PBXBuildFile; fileRef = E124F6FA2A01067900E87126 /* playstore.png */; };
-		E124F7012A01067900E87126 /* playstore.png in Resources */ = {isa = PBXBuildFile; fileRef = E124F6FA2A01067900E87126 /* playstore.png */; };
-		E124F7022A01067900E87126 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = E124F6FB2A01067900E87126 /* appstore.png */; };
-		E124F7032A01067900E87126 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = E124F6FB2A01067900E87126 /* appstore.png */; };
-		E124F7042A01067900E87126 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = E124F6FB2A01067900E87126 /* appstore.png */; };
+		E1EECC4E2A010C6300318A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EECC4D2A010C6300318A95 /* Assets.xcassets */; };
+		E1EECC502A010C9C00318A95 /* slater_icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EECC4F2A010C9C00318A95 /* slater_icon_1024.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +52,8 @@
 		E124F6D629FFA9AC00E87126 /* SlaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E124F6E32A001B9600E87126 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
 		E124F6EF2A00F52A00E87126 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
-		E124F6F92A01067900E87126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
-		E124F6FA2A01067900E87126 /* playstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playstore.png; sourceTree = "<group>"; };
-		E124F6FB2A01067900E87126 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
+		E1EECC4D2A010C6300318A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1EECC4F2A010C9C00318A95 /* slater_icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slater_icon_1024.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				E124F6EF2A00F52A00E87126 /* beep.mp3 */,
+				E1EECC4F2A010C9C00318A95 /* slater_icon_1024.png */,
 				E124F6B829FFA9AA00E87126 /* Slater */,
 				E124F6C929FFA9AB00E87126 /* SlaterTests */,
 				E124F6D329FFA9AC00E87126 /* SlaterUITests */,
@@ -113,13 +106,11 @@
 		E124F6B829FFA9AA00E87126 /* Slater */ = {
 			isa = PBXGroup;
 			children = (
-				E124F6FB2A01067900E87126 /* appstore.png */,
-				E124F6F92A01067900E87126 /* Assets.xcassets */,
-				E124F6FA2A01067900E87126 /* playstore.png */,
 				E124F6B929FFA9AA00E87126 /* SlaterApp.swift */,
 				E124F6BB29FFA9AA00E87126 /* SlateView.swift */,
 				E124F6BF29FFA9AB00E87126 /* Preview Content */,
 				E124F6E32A001B9600E87126 /* Properties.swift */,
+				E1EECC4D2A010C6300318A95 /* Assets.xcassets */,
 			);
 			path = Slater;
 			sourceTree = "<group>";
@@ -253,11 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EECC502A010C9C00318A95 /* slater_icon_1024.png in Resources */,
 				E124F6C129FFA9AB00E87126 /* Preview Assets.xcassets in Resources */,
-				E124F7022A01067900E87126 /* appstore.png in Resources */,
 				E124F6F02A00F52B00E87126 /* beep.mp3 in Resources */,
-				E124F6FC2A01067900E87126 /* Assets.xcassets in Resources */,
-				E124F6FF2A01067900E87126 /* playstore.png in Resources */,
+				E1EECC4E2A010C6300318A95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E124F7032A01067900E87126 /* appstore.png in Resources */,
-				E124F6FD2A01067900E87126 /* Assets.xcassets in Resources */,
 				E124F6F12A00F52B00E87126 /* beep.mp3 in Resources */,
-				E124F7002A01067900E87126 /* playstore.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E124F7042A01067900E87126 /* appstore.png in Resources */,
-				E124F6FE2A01067900E87126 /* Assets.xcassets in Resources */,
 				E124F6F22A00F52B00E87126 /* beep.mp3 in Resources */,
-				E124F7012A01067900E87126 /* playstore.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
